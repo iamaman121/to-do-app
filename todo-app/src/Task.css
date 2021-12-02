@@ -1,0 +1,133 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+.TaskList{
+    font-family: 'Times New Roman', Times, serif;
+}
+.TaskAdd{
+    margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+    position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  /* box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24); */
+}
+
+.TaskAdd input{
+    font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.TaskAdd button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #f1356d;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+
+.ttask{
+  color: #f1356d;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  position: relative;
+  padding: 10px 10px 10px 10px;
+  background: #eee;
+  font-size: 20px;
+  transition: 0.2s;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-align: center;
+  width: 100%;
+}
+
+.ttask button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #f1356d;
+  width: 8%;
+  height: 5%;
+  border: 0;
+  padding: 5px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  border-bottom: 1px solid #080808;
+}
+
+.items-to-display{
+  align-content: center;
+}
+/*kvmkfr*/
+.todos {
+  margin-top: 2%;
+}
+
+#item-id {
+  cursor: pointer;
+  text-align: center;
+  display: inline-block;
+  
+  
+}
+
+.todo-items{
+  border : 1px solid red;
+  margin: auto;
+  width: 60%;
+  padding : 0.5% 0.5% 0.5% 1%;
+}
+
+.todo-item {
+  text-decoration: line-through;
+  text-decoration-color: black;
+;
+}
+
+#todo-id:nth-child(odd) {
+  background-color: lightgrey;
+}
+
+#todo-id:hover {
+  background-color: rgb(180, 179, 179);
+}
+
+.todo-button {
+  /* margin-left : 50px; */
+  align-self: center;
+
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.todo-button:hover{
+  background-color: red;
+  color: #fff;
+}
+
+
+  
+  
